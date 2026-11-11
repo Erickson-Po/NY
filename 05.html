@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1a100b">
+<title>Врата V · Летопись</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23445c3f' stroke='%23c9a45c' stroke-width='5'/%3E%3Cpath d='M30 32L70 72M70 32L30 72' stroke='%23f3e2b3' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Marck+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-ch="5">
+<div id="garland" aria-hidden="true"></div>
+<canvas id="embers" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav id="trail" class="trail" aria-label="Путь по вратам"></nav>
+<div class="runes-wrap"><p class="cap">Руны · места в слове</p><div id="runes" class="runes"></div></div>
+<article id="chapter" class="panel">
+<span class="numeral" aria-hidden="true">V</span>
+<p class="kicker">Врата V из X</p>
+<h1>Летопись</h1>
+<div class="orn"><i></i></div>
+
+<div class="scene"><p>Зал летописей. На столе — два пергамента. На первом выведено: <strong>24.07.2026</strong> — день, когда мы встретились.</p>
+<p>Второй пуст. На нём должна появиться дата, когда мы стали парой.</p></div>
+<div class="puzzle"><p class="lead">Между двумя датами — столько дней, сколько пальцев на одной руке. Мы знали друг друга меньше недели.</p>
+<p>Впиши вторую дату целиком: день, месяц и год.</p></div>
+<p class="question">Какого числа мы стали парой?</p>
+<form id="form" class="answer" autocomplete="off">
+<label class="sr" for="answer">Ответ</label>
+<input id="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="ДД.ММ.ГГГГ">
+<button class="btn" type="submit">Открыть врата</button>
+</form>
+<p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+<div class="hints"><button id="hintBtn" class="btn ghost" type="button">Попросить намёк</button><div id="hints"></div></div>
+<section id="letter" class="after" hidden>
+<div id="award" class="rune-award"></div>
+<div class="letter"><p class="to">Юрочка,</p><p>пять дней — и мы пара. По календарю — «недавно», по ощущению — вечность. С самой первой встречи было чувство, что мы давным-давно знакомы.</p><p>Я перестала искать этому объяснение и просто радуюсь.</p><p class="sig">— Софокл ✦</p></div>
+<figure id="memory" class="memory" data-photo="ch05" hidden></figure>
+<p class="next"><a class="btn" href="06.html">Дальше — врата VI →</a></p>
+</section>
+
+</article>
+<footer class="foot"><button id="resetBtn" class="linklike" type="button">Начать хронику заново</button></footer>
+</div>
+<noscript><p style="position:relative;z-index:5;text-align:center;color:#e6d6b9">Для хроники нужен JavaScript — включи его в браузере.</p></noscript>
+<script src="assets/config.js"></script>
+<script src="assets/quest.js"></script>
+<script>QUEST.init({"n":5,"a":["7c74b18f7237215e7b18a55e8b68ec427766d7b4705b6073764157748a1e3772","818ab00c0b326c7bfddf4468fc44226ebcb02627a4ff3d72081f7056b0fd70f6","5fa95ce575fec6a4bedcebc624bfa99408a80fda07c0395baac2f9a6148b0067","e0c1510426406b91ef2e19147e4a1df5a1f15257480539677f55f8f90e4851dd","13cdbdf8396b2387a2e97b556453976b4455928ea16c5e935e4f1cc94a6e0810","07187b3066e7564abbbb408655cc3c4ade2f575ca2f09f8ea51f73614586bd41"],"hints":["24 + 5 = ?","Июль 2026-го. Число начинается на «двадцать…».","Формат: ДД.ММ.ГГГГ. Число — двадцать девятое."]});</script>
+</body>
+</html>
