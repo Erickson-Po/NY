@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1a100b">
+<title>Врата IV · Командный пункт</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23445c3f' stroke='%23c9a45c' stroke-width='5'/%3E%3Cpath d='M30 32L70 72M70 32L30 72' stroke='%23f3e2b3' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Marck+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-ch="4">
+<div id="garland" aria-hidden="true"></div>
+<canvas id="embers" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav id="trail" class="trail" aria-label="Путь по вратам"></nav>
+<div class="runes-wrap"><p class="cap">Руны · места в слове</p><div id="runes" class="runes"></div></div>
+<article id="chapter" class="panel">
+<span class="numeral" aria-hidden="true">IV</span>
+<p class="kicker">Врата IV из X</p>
+<h1>Командный пункт</h1>
+<div class="orn"><i></i></div>
+
+<div class="scene"><p>Ангар. Запах металла и масла, тусклая лампа над картой боя. Штаб перехватил зашифрованный приказ: цель обозначена координатами на квадратной карте.</p></div>
+<div class="puzzle"><p class="lead">Координаты цели (сначала столбец, потом строка — как в «морском бое»):</p>
+<div class="coords">Д2 · А5 · В4 · Е1 · Б6</div>
+<div class="grid6"><span class="h"></span><span class="h">А</span><span class="h">Б</span><span class="h">В</span><span class="h">Г</span><span class="h">Д</span><span class="h">Е</span><span class="h">1</span><span>З</span><span>М</span><span>А</span><span>А</span><span>Ю</span><span>Н</span><span class="h">2</span><span>О</span><span>Ц</span><span>Ю</span><span>О</span><span>Б</span><span>У</span><span class="h">3</span><span>Ю</span><span>У</span><span>У</span><span>С</span><span>К</span><span>Л</span><span class="h">4</span><span>Ю</span><span>Э</span><span>О</span><span>И</span><span>Я</span><span>Ч</span><span class="h">5</span><span>Р</span><span>З</span><span>Т</span><span>А</span><span>Ф</span><span>Г</span><span class="h">6</span><span>Д</span><span>Я</span><span>Ч</span><span>М</span><span>С</span><span>Х</span></div>
+<p>Прочти буквы в клетках — по порядку, как в приказе.</p></div>
+<p class="question">Какое слово сложилось? Это то, что спасает танк под обстрелом.</p>
+<form id="form" class="answer" autocomplete="off">
+<label class="sr" for="answer">Ответ</label>
+<input id="answer" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Слово из карты…">
+<button class="btn" type="submit">Открыть врата</button>
+</form>
+<p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+<div class="hints"><button id="hintBtn" class="btn ghost" type="button">Попросить намёк</button><div id="hints"></div></div>
+<section id="letter" class="after" hidden>
+<div id="award" class="rune-award"></div>
+<div class="letter"><p class="to">Юрочка,</p><p>не знаю, насколько ты бесстрашен в танках, но в этой хронике броня тебе не нужна — тебя здесь никто не обстреливает. Разве что нежностью.</p><p>Мне нравится, что у тебя есть место, где можно побыть командиром. А у меня есть штаб, где тебя всегда ждут.</p><p class="sig">— Софокл ✦</p></div>
+<figure id="memory" class="memory" data-photo="ch04" hidden></figure>
+<p class="next"><a class="btn" href="05.html">Дальше — врата V →</a></p>
+</section>
+
+</article>
+<footer class="foot"><button id="resetBtn" class="linklike" type="button">Начать хронику заново</button></footer>
+</div>
+<noscript><p style="position:relative;z-index:5;text-align:center;color:#e6d6b9">Для хроники нужен JavaScript — включи его в браузере.</p></noscript>
+<script src="assets/config.js"></script>
+<script src="assets/quest.js"></script>
+<script>QUEST.init({"n":4,"a":["647140c81737d358790195a4f16ce821ed2942eae6abe252a5ac79669ed5e8c4","bc86cbca6269fd414ce7c203aae2baf270664eaee560d3847040f8077c499fd5"],"hints":["Идём по порядку: Д2 — это столбец «Д», строка 2.","Первая буква — «Б». Дальше — «Р».","Самое толстое на танке и самое нужное, когда по тебе стреляют."]});</script>
+</body>
+</html>
